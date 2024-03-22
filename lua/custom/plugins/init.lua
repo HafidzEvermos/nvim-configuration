@@ -47,4 +47,7 @@ return {
 	{
         "nvim-treesitter/nvim-treesitter-refactor"
     },
+    {
+        "f-person/git-blame.nvim"
+    }
 }

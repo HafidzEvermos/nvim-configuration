@@ -74,6 +74,10 @@ map("n", "<leader>gs", "<cmd>Telescope git_status<CR>", { desc = "Telescope Git 
 map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "Telescope Pick hidden term" })
 map("n", "<leader>th", "<cmd>Telescope themes<CR>", { desc = "Telescope Nvchad themes" })
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope Find files" })
+map("n", "<leader>fr", "<cmd>Telescope lsp_references<cr>", { desc = "Telescope Find references" })
+map("n", "<leader>ld", "<cmd>Telescope diagnostics<cr>", { desc = "Telescope List Diagnostics" })
+map("n", "<leader>fi", "<cmd>Telescope lsp_implementations<cr>", { desc = "Telescope List/Goto Implementations" })
+map("n", "<leader>lgb", "<cmd>Telescope git_branches<cr>", { desc = "Telescope List Git Branches" })
 map(
   "n",
   "<leader>fa",
@@ -82,7 +86,7 @@ map(
 )
 
 -- terminal
-map("t", "<C-x>", "<C-\\><C-N>", { desc = "Terminal Escape terminal mode" })
+map("t", "<leader>x", "<C-\\><C-N>", { desc = "Terminal Escape terminal mode" })
 
 -- new terminals
 -- map("n", "<leader>h", function()

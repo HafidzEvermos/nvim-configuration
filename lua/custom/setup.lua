@@ -20,3 +20,8 @@ require("nvim-treesitter.configs").setup({
 		},
 	},
 })
+
+require('gitblame').setup({
+    enabled = true,
+    delay = 1000,
+})
